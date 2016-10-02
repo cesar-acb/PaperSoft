@@ -2,16 +2,16 @@ package br.papelaria;
 
 import br.papelaria.view.Clientes;
 
-public class Papelaria 
+public class Papelaria
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         new Clientes().setVisible(true);
     }
-    
-    public void fuck ()
+
+    public void teste ()
     {
-        System.out.println("Fuck world!");
+        System.out.println("Teste");
     }
 
 }
