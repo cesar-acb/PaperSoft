@@ -8,5 +8,10 @@ public class Papelaria
     {
         new Clientes().setVisible(true);
     }
+    
+    public void fuck ()
+    {
+        System.out.println("Fuck world!");
+    }
 
 }
