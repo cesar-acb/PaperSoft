@@ -19,6 +19,25 @@ is divided into following sections:
   - cleanup
 
         -->
+		
+		<project name="Papelaria" default="default" basedir=".">
+    <description>Builds, tests, and runs the project Papelaria.</description>
+    <import file="nbproject/build-impl.xml"/>
+    
+	<target name="run" depends="compile">
+		<junit haltonfailure="false" printsummary="true">
+			<classpath refid="classpath"></classpath>
+			<batchtest haltonfailure="false" fork="true" todir="reports"
+				<fileset dir="bin">
+					<exclude name="TestRunner.*"/>
+					<exclude name="CustomeListener*.*"/>
+				</fileset>
+			</batchtest>
+			<formatter type="xml"/>
+		</junit>
+	</target>
+</project>
+
 <project xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" basedir=".." default="default" name="Calculadora_RMI-impl">
     <fail message="Please build using Ant 1.8.0 or higher.">
         <condition>
