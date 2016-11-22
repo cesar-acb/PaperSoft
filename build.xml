@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="br.papelaria.model" project="Papelaria" tests="5" started="5" failures="0" errors="0" ignored="0">
+<?xml version="1.0" encoding="UTF-8"?><testrun name="br.papelaria.model" project="Papelaria" tests="19" started="19" failures="0" errors="0" ignored="0">
+  <testsuite name="br.papelaria.model.RelatorioTest" time="0.0">
+    <testcase name="testbuscaItem" classname="br.papelaria.model.RelatorioTest" time="0.0"/>
+    <testcase name="testExibirRelatorio" classname="br.papelaria.model.RelatorioTest" time="0.0"/>
+    <testcase name="testbuscaVenda" classname="br.papelaria.model.RelatorioTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="br.papelaria.model.PagamentoTest" time="0.0">
+    <testcase name="testRegistraPagamento" classname="br.papelaria.model.PagamentoTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="br.papelaria.model.VendaTest" time="0.0">
+    <testcase name="testregistrarVenda" classname="br.papelaria.model.VendaTest" time="0.0"/>
+    <testcase name="testregistrarProduto" classname="br.papelaria.model.VendaTest" time="0.0"/>
+  </testsuite>
   <testsuite name="br.papelaria.model.ClienteTest" time="0.001">
     <testcase name="testexcluirCliente" classname="br.papelaria.model.ClienteTest" time="0.0"/>
     <testcase name="testconsultaCliente" classname="br.papelaria.model.ClienteTest" time="0.0"/>
@@ -7,5 +19,17 @@
   </testsuite>
   <testsuite name="br.papelaria.model.EstoqueTest" time="0.0">
     <testcase name="testrelatorioEstoqueDiario" classname="br.papelaria.model.EstoqueTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="br.papelaria.model.ProdutoTest" time="0.0">
+    <testcase name="testexcluirProduto" classname="br.papelaria.model.ProdutoTest" time="0.0"/>
+    <testcase name="testincluirProduto" classname="br.papelaria.model.ProdutoTest" time="0.0"/>
+    <testcase name="testalterarProduto" classname="br.papelaria.model.ProdutoTest" time="0.0"/>
+    <testcase name="testconsultarProduto" classname="br.papelaria.model.ProdutoTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="br.papelaria.model.FornecedorTest" time="0.001">
+    <testcase name="testincluirFornecedor" classname="br.papelaria.model.FornecedorTest" time="0.0"/>
+    <testcase name="testalterarFornecedor" classname="br.papelaria.model.FornecedorTest" time="0.0"/>
+    <testcase name="testexcluirFornecedor" classname="br.papelaria.model.FornecedorTest" time="0.0"/>
+    <testcase name="testconsultarFornecedor" classname="br.papelaria.model.FornecedorTest" time="0.001"/>
   </testsuite>
 </testrun>
