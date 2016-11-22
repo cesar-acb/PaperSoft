@@ -26,5 +26,10 @@
     <testcase name="testalterarProduto" classname="br.papelaria.model.ProdutoTest" time="0.0"/>
     <testcase name="testconsultarProduto" classname="br.papelaria.model.ProdutoTest" time="0.0"/>
   </testsuite>
-  
+  <testsuite name="br.papelaria.model.FornecedorTest" time="0.001">
+    <testcase name="testincluirFornecedor" classname="br.papelaria.model.FornecedorTest" time="0.0"/>
+    <testcase name="testalterarFornecedor" classname="br.papelaria.model.FornecedorTest" time="0.0"/>
+    <testcase name="testexcluirFornecedor" classname="br.papelaria.model.FornecedorTest" time="0.0"/>
+    <testcase name="testconsultarFornecedor" classname="br.papelaria.model.FornecedorTest" time="0.001"/>
+  </testsuite>
 </testrun>
