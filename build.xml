@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ClienteTest" project="Papelaria" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="br.papelaria.model.ClienteTest" time="0.0">
-    <testcase name="testincluirCliente" classname="br.papelaria.model.ClienteTest" time="0.0"/>
+<?xml version="1.0" encoding="UTF-8"?><testrun name="br.papelaria.model" project="Papelaria" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="br.papelaria.model.ClienteTest" time="0.001">
+    <testcase name="testexcluirCliente" classname="br.papelaria.model.ClienteTest" time="0.0"/>
+    <testcase name="testconsultaCliente" classname="br.papelaria.model.ClienteTest" time="0.0"/>
+    <testcase name="testincluirCliente" classname="br.papelaria.model.ClienteTest" time="0.001"/>
+    <testcase name="testalterarCliente" classname="br.papelaria.model.ClienteTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="br.papelaria.model.EstoqueTest" time="0.0">
+    <testcase name="testrelatorioEstoqueDiario" classname="br.papelaria.model.EstoqueTest" time="0.0"/>
   </testsuite>
 </testrun>
